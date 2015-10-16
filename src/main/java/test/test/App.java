@@ -12,8 +12,9 @@ public class App
 {
     public static void main( String[] args )
     {
-    	String password = "ghkhgk";
-    	CloudantClient client = new CloudantClient("ikhjk","iuhkjk",password);
+    	String password = System.getenv("password");
+    	String username = System.getenv("account");
+    	CloudantClient client = new CloudantClient(username, username, password);
 
     	System.out.println("Connected to Cloudant");
 
