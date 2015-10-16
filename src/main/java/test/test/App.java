@@ -12,8 +12,8 @@ public class App
 {
     public static void main( String[] args )
     {
-    	String password = "eng40000";
-    	CloudantClient client = new CloudantClient("eyeofthetiger","eyeofthetiger",password);
+    	String password = "ghkhgk";
+    	CloudantClient client = new CloudantClient("ikhjk","iuhkjk",password);
 
     	System.out.println("Connected to Cloudant");
 
