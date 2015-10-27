@@ -25,6 +25,7 @@ public class App
     public static void main( String[] args )
     {
     	//logins into the cloudant db account
+    	//may have to manually set eclipses environment variables to include account and password
     	String password = System.getenv("password");
     	String username = System.getenv("account");
     	CloudantClient client = new CloudantClient(username, username, password);
